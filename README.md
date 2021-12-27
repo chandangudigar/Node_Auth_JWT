@@ -28,12 +28,14 @@ http://localhost:4000/api/user/register
 ```
 ``
 Body :
+``
+```
   {
     "name": "xyz",
     "email": "xyz",
     "password": "xys"
   }
-``
+```
 
 # 2. To User Login 
 
@@ -42,11 +44,13 @@ http://localhost:4000/api/user/login
 ```
 ``
 Body :
+``
+```
   {
     "email":"zys",
     "password": "zys"
   }
-``
+```
 
 # 3. To get posts with authToken 
 
@@ -55,10 +59,12 @@ http://localhost:4000/api/posts/
 ```
 ``
 header: 
+``
+```
   {
     auth-token: "fefenjduececmscjsc"
   }
-``
+```
  
 
 
