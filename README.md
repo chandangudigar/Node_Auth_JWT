@@ -33,7 +33,6 @@ Body :
     "email": "xyz",
     "password": "xys"
   }
-
 ``
 
 # 2. To User Login 
